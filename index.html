@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/bs-custom.min.css">
+  <link rel="stylesheet" href="/css/style.min.css">
+  <script src="https://kit.fontawesome.com/8ba6ad22b5.js" crossorigin="anonymous"></script>
+
+  <title>Building</title>
+</head>
+<body>
+  <div class="container">
+    <!-- banner -->
+    <div class="banner position-relative">
+      <h1>Travel With<br>Us, Cheaply</h1>
+      <p class="text-secondary mt-3">28°C Cloudy</p>
+      <div class="d-flex mt-4">
+        <button type="button" class="btn btn-outline-secondary rounded-circle"><i class="fa-solid fa-arrow-left"></i></button>
+        <button type="button" class="btn btn-outline-secondary rounded-circle ms-2"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+
+      <div class="searchbar d-flex justify-content-between align-items-center bg-white position-absolute top-100 start-50 translate-middle">
+        <div>
+          <h5>Location</h5>
+          <div class="d-flex align-items-baseline">
+            <p class="text-secondary pt-2">Your Destination</p>
+            <img src="/img/ic-location.png" alt="icon" class="ms-5">
+          </div>
+        </div>
+        <div class="divider mx-2"></div>
+        <div>
+          <h5>Activity</h5>
+          <div class="d-flex align-items-baseline">
+            <p class="text-secondary pt-2">Your Activity</p>
+            <img src="/img/ic-activity.png" alt="icon" class="ms-5">
+          </div>
+        </div>
+        <div class="divider mx-2"></div>
+        <div>
+          <h5>Date</h5>
+          <div class="d-flex align-items-baseline">
+            <p class="text-secondary pt-2">Set Date</p>
+            <img src="/img/ic-date.png" alt="icon" class="ms-5">
+          </div>
+        </div>
+        <div class="">
+          <button class="btn btn-danger d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- recomended building -->
+    <div class="recomended">
+      <div class="section-title text-center mb-4">
+        <h2 class="mb-2">Recomended Building</h2>
+        <p class="text-secondary">The most Brilliant reason NotCube has to be<br> most Convenient and Cheap</p>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+        <div class="col mb-4 mb-md-0">
+          <div class="card">
+            <div class="card-body">
+              <div class="gambar position-relative" id="building1">
+                <span class="position-absolute badge rounded-pill text-success bg-info">4.6</span>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <div class="title">
+                  <h3>High Fly</h3>
+                  <p class="text-secondary mt-2"><i class="fa-solid fa-location-dot me-2"></i>Gambir, Jakarta</p>
+                </div>
+                <div class="price text-end">
+                  <h4 class="text-success">$430</h4>
+                  <p class="text-secondary mt-2">Per hour</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 mb-md-0">
+          <div class="card border-3 border-success">
+            <div class="card-body">
+              <div class="gambar position-relative" id="building2">
+                <span class="position-absolute badge rounded-pill text-success bg-info">4.9</span>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <div class="title">
+                  <h3>Stone Mountain</h3>
+                  <p class="text-secondary mt-2"><i class="fa-solid fa-location-dot me-2"></i>Padalarang, Bandung</p>
+                </div>
+                <div class="price text-end">
+                  <h4 class="text-success">$700</h4>
+                  <p class="text-secondary mt-2">Per hour</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4 mb-md-0">
+          <div class="card">
+            <div class="card-body">
+              <div class="gambar position-relative" id="building3">
+                <span class="position-absolute badge rounded-pill text-success bg-info">4.8</span>
+              </div>
+              <div class="d-flex justify-content-between mt-3">
+                <div class="title">
+                  <h3>White Building</h3>
+                  <p class="text-secondary mt-2"><i class="fa-solid fa-location-dot me-2"></i>Kebun Raya, Bogor</p>
+                </div>
+                <div class="price text-end">
+                  <h4 class="text-success">$380</h4>
+                  <p class="text-secondary mt-2">Per hour</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- gallery -->
+    <div class="gallery mt-5 mb-5">
+      <div class="section-title text-center mb-4">
+        <h2 class="mb-2">Gallery</h2>
+        <p class="text-secondary">This photo is from some of EzStay<br>Favorite buildings</p>
+      </div>
+
+      <div class="row luar">
+        <div class="col-md-4 mb-4 mb-md-0 item">
+          <div class="image" style="background: url('/img/gallery1.png');"></div>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0 item">
+          <div class="image position-relative overflow-hidden" style="background: url('/img/gallery2.png');">
+            <div class="overlay position-absolute top-0 start-0 bottom-0 end-0"></div>
+
+            <h5 class="text-white">Glasses House</h5>
+            <p class="text-secondary mt-2"><i class="fa-solid fa-location-dot me-2"></i>KBP, Bandung</p>
+            <div class="position-absolute badge rounded-pill bg-info text-success d-flex align-items-center pe-4">
+              <i class="fa-solid fa-star me-1"></i><span>4.9</span>
+            </div>
+            
+            <div class="position-absolute btn btn-danger tombol rounded-circle d-flex justify-content-center align-items-center translate-middle">
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 item">
+          <div class="row dalam pb-md-2 mb-4 mb-md-0">
+            <div class="col item">
+              <div class="image" style="background: url('/img/gallery3.png');"></div>
+            </div>
+          </div>
+          <div class="row dalam pt-md-3">
+            <div class="col item">
+              <div class="image" style="background: url('/img/gallery4.png');"></div>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
