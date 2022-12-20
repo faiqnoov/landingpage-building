@@ -1,9 +1,11 @@
 // custom variables
-// $primary: rgb(224, 107, 107);
 $success: #3A8375;
 $info: #DAFFF8;
 $secondary: #ADADAD;
-$danger: #FC8868;
+$warning: #FC8868;
+$danger: #FF7048;
+
+$grid-gutter-width: 50px;
 
 // import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
