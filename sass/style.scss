@@ -63,6 +63,7 @@ nav {
   }
   img {
     width: 20px;
+    margin-left: 45px;
   }
 
   .divider{
@@ -75,7 +76,8 @@ nav {
     width: 70px;
     height: 70px;
     border-radius: 20px;
-    margin-left: 230px;
+    // margin-left: 230px;
+    margin-left: 30px;
     i{
       font-size: 24px !important;
       color: #fff;
@@ -225,4 +227,12 @@ nav {
     img {display: none;}
     .btn {margin-left: 15px;}
   }
+}
+
+@media screen and (max-width: 512px) {
+  // .searchbar .btn {
+  //   width: 100px;
+  //   height: 40px;
+  // }
+  // .divider {display: none;}
 }
