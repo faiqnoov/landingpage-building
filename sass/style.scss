@@ -76,8 +76,7 @@ nav {
     width: 70px;
     height: 70px;
     border-radius: 20px;
-    // margin-left: 230px;
-    margin-left: 30px;
+    margin-left: 230px;
     i{
       font-size: 24px !important;
       color: #fff;
@@ -206,6 +205,11 @@ nav {
 //   margin-top: 50px;
 // }
 
+@media screen and (max-width: 1200px) {
+  .searchbar .btn {
+    margin-left: 20px;
+  }
+}
 
 @media screen and (max-width: 900px) {
   nav {
@@ -225,14 +229,9 @@ nav {
     h5 {font-size: 16px;}
     p {font-size: 12px;}
     img {display: none;}
-    .btn {margin-left: 15px;}
   }
 }
 
 @media screen and (max-width: 512px) {
-  // .searchbar .btn {
-  //   width: 100px;
-  //   height: 40px;
-  // }
-  // .divider {display: none;}
+  // 
 }
